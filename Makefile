@@ -18,4 +18,7 @@ migrate-down:
 sqlc:
 	sqlc generate
 
-.PHONY: postgres create-db drop-db migrate-up migrate-down sqlc
+server:
+	go run main.go
+
+.PHONY: postgres create-db drop-db migrate-up migrate-down sqlc server
