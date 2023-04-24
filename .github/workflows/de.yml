@@ -1,4 +1,4 @@
-name: Run unit tests
+name: Deploy to aws production
 
 on:
   push:
